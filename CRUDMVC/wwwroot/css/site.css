@@ -1,0 +1,95 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+    position: relative;
+    top: 30px;
+}
+
+.btn {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration:none;
+    margin:10px;
+}
+
+.btn-return {
+    background-color: #07833b;
+}
+.btn-update {
+    background-color: #cfc400;
+}
+.btn-add {
+    background-color: #031b8a;
+}
+.btn-delete {
+    background-color: #ff0000;
+}
+
+.table {
+    border: 1px solid #000000;
+    width: 80%;
+}
+
+thead{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+th, td {
+    width: 25%;
+    height: 50%;
+    text-align:center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-spacing: 0;
+}
+
+.btn-edit, .btn-eraser {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-edit {
+    background-color: #13a003;
+}
+
+.btn-eraser {
+    background-color: #d90808;
+}
+
+form {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #bbb31b;
+}
+
+form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
